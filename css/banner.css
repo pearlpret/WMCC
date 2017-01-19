@@ -1,0 +1,44 @@
+table:hover {background:none}
+td,th {font-family: myFirstFont; font-size: 240%;}
+
+
+ #title {font-family: myFirstFont; font-size: 230%; border-bottom: 1px solid black;padding:10px background-repeat: no-repeat;}
+
+
+ @font-face {
+     font-family: 'myFirstFont';
+     src: url('../fonts/Chapbook-Regular.woff');
+ }
+
+ #divpic {
+     position: absolute;
+     top:0; right: 0; left: 0;
+   background-image:url('../images/3.png');
+ /*  background-repeat: no-repeat; */
+   background-size: cover;
+   /* background-repeat: repeat;*/
+ }
+
+#bowlpic {
+  position: absolute;
+   top:0%;
+   left: -0.75%;
+    width: 200px;
+    height: 200px;
+}
+
+#batpic {
+  position: absolute;
+   top: -11%;
+   right: 4%;
+   width: 200px;
+   height: 200px;
+}
+
+#titleid {
+  position: absolute;
+   top: 28%;
+   left: 11.50%;
+   width: 1225;
+   height: 85;
+}
