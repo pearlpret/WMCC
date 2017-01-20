@@ -5,6 +5,7 @@ td,th {font-family: myFirstFont; font-size: 240%;}
  #title {font-family: myFirstFont; font-size: 230%; border-bottom: 1px solid black;padding:10px background-repeat: no-repeat;}
 
 
+
  @font-face {
      font-family: 'myFirstFont';
      src: url('../fonts/Chapbook-Regular.woff');
